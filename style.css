@@ -1,11 +1,40 @@
-* {
-  padding: 0;
-  margin: 0;
+.font1 {
+  font-size: 100%;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(224, 16, 68);
 }
-.header {
-  background-color: gray;
-  height: 50px;
-  text-align: center;
-  color: purple;
+div {
+  background-color: rgb(233, 33, 99);
+}
+span {
+  background-color: rgb(240, 33, 95);
 }
 
+.gradient-class {
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    red,
+    rgb(231, 201, 31),
+    blue,
+    orange,
+    black
+  );
+}
+.circle-gradient {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  background-image: radial-gradient(
+    circle,
+    red,
+    rgb(231, 201, 31),
+    blue,
+    orange,
+    black
+  );
+}
